@@ -32,6 +32,7 @@ public class LoginVerify extends HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		//Config getParameters
 		String username = request.getParameter("uname");
 		String password = request.getParameter("password");
 		
